@@ -39,13 +39,13 @@ public class Employee {
     EmployeeBluePrint emp2 = new EmployeeBluePrint("Shivam");
     
     emp1.empAge(20);
-    emp2.empAge(13);
+    emp2.empAge(21);
     
-    emp1.empDesignation("Machine Learning , PHP Developer");
-    emp2.empDesignation("Android Developer");
+    emp1.empDesignation("HOD of Maths Department");
+    emp2.empDesignation("HOD of Computer Department");
     
-    emp1.empSalary(200000);
-    emp2.empSalary(100000);
+    emp1.empSalary(100000);
+    emp2.empSalary(120000);
     
     System.out.println("Employee 1 :\n");
     emp1.printEmployee();
