@@ -36,7 +36,7 @@ public class Employee {
 
   public static void main(String[] args) {
     EmployeeBluePrint emp1 = new EmployeeBluePrint("Himanshu Rawat");
-    EmployeeBluePrint emp2 = new EmployeeBluePrint("Shivam");
+    EmployeeBluePrint emp2 = new EmployeeBluePrint("Kishore Dutt");
     
     emp1.empAge(20);
     emp2.empAge(21);
