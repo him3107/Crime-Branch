@@ -35,17 +35,17 @@ class EmployeeBluePrint{
 public class Employee {
 
   public static void main(String[] args) {
-    EmployeeBluePrint emp1 = new EmployeeBluePrint("Sanheen Sethi");
-    EmployeeBluePrint emp2 = new EmployeeBluePrint("Aniket Sethi");
+    EmployeeBluePrint emp1 = new EmployeeBluePrint("Himanshu Rawat");
+    EmployeeBluePrint emp2 = new EmployeeBluePrint("Kishore Dutt");
     
     emp1.empAge(20);
-    emp2.empAge(13);
+    emp2.empAge(21);
     
-    emp1.empDesignation("Machine Learning , PHP Developer");
-    emp2.empDesignation("Android Developer");
+    emp1.empDesignation("HOD of Maths Department");
+    emp2.empDesignation("HOD of Computer Department");
     
-    emp1.empSalary(200000);
-    emp2.empSalary(100000);
+    emp1.empSalary(100000);
+    emp2.empSalary(120000);
     
     System.out.println("Employee 1 :\n");
     emp1.printEmployee();
